@@ -10,15 +10,16 @@ import "math"
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
-type int_8 int8
+type myInt int8
 
-func CalcSquare(sideLen float64, sidesNum int_8) float64 {
+func CalcSquare(sideLen float64, sidesNum myInt) float64 {
 	switch sidesNum {
 	case 0:
 		return 0
 	case 3:
-		return math.pow(sideLen, 2) * math.Sqrt(sideLen) / 4
+		return math.Pow(sideLen, 2) * math.Sqrt(sideLen) / 4
 	case 4:
-		return math.pow(sideLen, 2)
+		return math.Pow(sideLen, 2)
 	}
+	return 1
 }
