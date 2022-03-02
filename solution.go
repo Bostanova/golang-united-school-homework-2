@@ -11,6 +11,9 @@ import "math"
 // CalcSquare(10.0, SidesCircle)
 
 type myInt int8
+type SidesTriangle myInt
+type SidesSquare myInt
+type SidesCircle myInt
 
 func CalcSquare(sideLen float64, sidesNum myInt) float64 {
 	switch sidesNum {
