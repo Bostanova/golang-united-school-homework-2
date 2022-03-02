@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66861bc8-aeb4-4f10-a4cc-7be5f731b6c1" name="Changes" comment="fix syntax">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="66861bc8-aeb4-4f10-a4cc-7be5f731b6c1" name="Changes" comment="add custom types">
       <change beforePath="$PROJECT_DIR$/solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/solution.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix syntax" />
+    <MESSAGE value="add custom types" />
+    <option name="LAST_COMMIT_MESSAGE" value="add custom types" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
